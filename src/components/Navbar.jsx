@@ -9,8 +9,9 @@ export default function Navbar() {
     { label: 'About Me', href: '#about' },
     { label: 'Services', href: '#services' },
     { label: 'Projects', href: '#projects' },
-    { label: 'Contact', href: '#contact' },
     { label: 'Certifcates', href: '#certificates' },
+    { label: 'Contact', href: '#contact' },
+    
   ];
 
   return (
