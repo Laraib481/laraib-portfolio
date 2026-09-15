@@ -211,13 +211,13 @@ export default function Footer() {
                 <span>laraib15869@gmail.com</span>
               </a>
 
-              <a
+              {/* <a
                 href="tel:+923496015869"
                 className="flex items-center gap-3 text-sm text-neutral-300 hover:text-white transition-colors"
               >
                 <Phone size={16} className="text-neutral-400" />
-                <span>+92 349 6015869</span>
-              </a>
+                <span>+92 349 6015869</span> */}
+              {/* </a> */}
             </div>
           </div>
 

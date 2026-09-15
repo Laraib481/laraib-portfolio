@@ -7,11 +7,12 @@ export default function Navbar() {
 
   const menuItems = [
     { label: 'About Me', href: '#about' },
+    { label: 'Experience', href: '#experience' },
+    { label: 'Skills', href: '#skills' },
     { label: 'Services', href: '#services' },
     { label: 'Projects', href: '#projects' },
-    { label: 'Certifcates', href: '#certificates' },
+    { label: 'Certificates', href: '#certificates' },
     { label: 'Contact', href: '#contact' },
-    
   ];
 
   return (
@@ -67,7 +68,7 @@ export default function Navbar() {
                     key={index}
                     href={item.href}
                     onClick={() => setIsOpen(false)}
-                    className="px-2.5 py-1.5 md:px-3 md:py-2 text-xs md:text-sm font-medium text-neutral-300 hover:text-white hover:bg-neutral-800/80 rounded-lg md:rounded-xl transition-all whitespace-nowrap block"
+                    className="px-2.5 py-1.5 md:px-3 md:py-2 text-xs md:text-sm font-medium text-neutral-300 hover:text-white hover:bg-[#B30000]/20 rounded-lg md:rounded-xl transition-all whitespace-nowrap block"
                   >
                     {item.label}
                   </a>
